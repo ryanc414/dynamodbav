@@ -11,13 +11,13 @@ using this package:
 
 ```
     // Using SDK directly
-	result := new(MyType)
+    result := new(MyType)
 
-	if err := attributevalue.UnmarshalMap(item, result); err != nil {
-		return nil, err
-	}
+    if err := attributevalue.UnmarshalMap(item, result); err != nil {
+        return nil, err
+    }
 
-	return result, nil
+    return result, nil
 
     // Using this package, reduce 5 lines of code to 1:
     return dynamodbav.UnmarshalItem[MyType](item)
