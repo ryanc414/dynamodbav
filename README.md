@@ -1,3 +1,5 @@
+[![Go Reference](https://pkg.go.dev/badge/github.com/ryanc414/dynamodbav.svg)](https://pkg.go.dev/github.com/ryanc414/dynamodbav)
+
 dynamodbav - DynamoDB Marshal/Unmarshal utilities
 =================================================
 
